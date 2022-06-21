@@ -46,7 +46,7 @@ if (args.Length > 0)
 // add a TextField called "LastName"
 form.AddControl(page, "LastName",
     Field.Type.e_TypeTextField, new RectF(180f, 560f, 350f, 590f));
-// see if there is a command line argument with the FirstName specified already
+// see if there is a command line argument with the LastName specified already
 if (args.Length > 0)
 {
     if (args[1].Length > 0)
